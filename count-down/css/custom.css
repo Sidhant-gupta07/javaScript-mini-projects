@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    background: url("../image/pexels-matheus-de-moraes-gugelmim-14412296.jpg") center center;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.tittle{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+.col{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: block;
+    margin-right: 4rem;
+    padding: 1rem 0 1rem 0;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 1.5rem;
+}
+label{
+    margin-top: 0.5rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding-right: 5rem;
+}
